@@ -1,0 +1,66 @@
+{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+#contenitore{
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin: 2% 15% 5%;
+  padding: 5% 5%;
+}
+
+header, nav{
+  text-align: center;
+}
+
+#logo{
+  height: 100px;
+}
+
+#testo{
+  font-size: 30px;
+  color: #00dd00;
+}
+
+nav{
+  background-color: #00dd00;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+main{
+  color: white;
+}
+
+.scooter{
+  margin-top: 4%;
+}
+
+.monopattino{
+  display: inline;
+}
+
+.scooter :last-child{
+  height: 30px;
+  border-radius: 6px;
+}
+
+.carica1{
+  background-color: #f5b453;
+  width: 35%;
+}
+
+.carica2{
+  background-color: #1ec31e;
+  width: 55%;
+}
+
+.carica3{
+  background-color: #be4141;
+  width: 15%;
+}
